@@ -17,12 +17,15 @@ COPY . app.py /app/
 ## Step 3:
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
+RUN pip install --upgrade pip &&\
+    pip install --trusted-host pypi.python.org -r requirements.txt
 
-RUN pip install Flask==1.1.1 
-RUN pip install numpy==1.17.0 
-RUN pip install pandas==0.25.0 
-RUN pip install scikit-learn==0.20.2 
-RUN pip install pylint==2.3.1
+
+#RUN pip install Flask==1.1.1 
+#RUN pip install numpy==1.17.0 
+#RUN pip install pandas==0.25.0 
+#RUN pip install scikit-learn==0.20.2 
+#RUN pip install pylint==2.3.1
 
 
 ## Step 4:
