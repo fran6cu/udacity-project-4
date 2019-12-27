@@ -1,7 +1,7 @@
 
 <img src="https://circleci.com/circleci-logo-stacked-fb.png" alt="drawing" width="100"/>
 
-[![CircleCI](https://circleci.com/gh/aciddude/udacity_project_4.svg?style=svg)](https://circleci.com/gh/aciddude/udacity_project_4)
+[![CircleCI](https://circleci.com/gh/fran6cu/udacity-project-4/tree/master.svg?style=svg)](https://circleci.com/gh/fran6cu/udacity-project-4/tree/master)
 
 
 ## Project Overview
@@ -44,3 +44,5 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+
