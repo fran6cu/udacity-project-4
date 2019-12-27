@@ -1,7 +1,7 @@
 FROM python:3.7.3-stretch
 
 LABEL version="1.0"
-LABEL name="udacity_microservice"
+LABEL name="udacity-project-4"
 
 ## Step 1:
 # Create a working directory
@@ -20,12 +20,7 @@ COPY . app.py /app/
 RUN pip install --upgrade pip &&\
     pip install --trusted-host pypi.python.org -r requirements.txt
 
-
-#RUN pip install Flask==1.1.1 
-#RUN pip install numpy==1.17.0 
-#RUN pip install pandas==0.25.0 
-#RUN pip install scikit-learn==0.20.2 
-#RUN pip install pylint==2.3.1
+RUN pip install scikit-learn==0.20.3 
 
 
 ## Step 4:
